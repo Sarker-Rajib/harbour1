@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Harbour || </title>
+  <title>Harbour</title>
   <link rel='shortcut icon' href='assets/images/logo.png' type='image/x-icon'>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/css/style.css">
@@ -16,75 +16,586 @@
   <div class="all-wrapper">
     <div class="top">
       <div class="vertical">
+        <p class="label mb-1">
+          I
+        </p>
         <div class="left">
-          <span class="slot">20</span>
-          <span class="slot">18</span>
-          <span class="slot">16</span>
-          <span class="slot">14</span>
-          <span class="slot">12</span>
-          <span class="slot">10</span>
-          <span class="slot">8</span>
-          <span class="slot">6</span>
-          <span class="slot">4</span>
-          <span class="slot">2</span>
-          <span class="slot">h9</span>
+          <span class="slot" id="I20">20</span>
+          <span class="slot" id="I18">18</span>
+          <span class="slot occupied" id="I16">16</span>
+          <span class="slot" id="I14">14</span>
+          <span class="slot" id="I12">12</span>
+          <span class="slot" id="I10">10</span>
+          <span class="slot" id="I8">8</span>
+          <span class="slot occupied" id="I6">6</span>
+          <span class="slot" id="I4">4</span>
+          <span class="slot" id="I2">2</span>
+          <span class="slot" id="Ih9">h9</span>
         </div>
         <div class="right">
-          <span class="slot adjusted">21</span>
-          <span class="slot adjusted">19</span>
-          <span class="slot adjusted">17</span>
-          <span class="slot adjusted">15</span>
-          <span class="slot adjusted">13</span>
-          <span class="slot adjusted">11</span>
-          <span class="slot adjusted">9</span>
-          <span class="slot adjusted">7</span>
-          <span class="slot adjusted">5</span>
-          <span class="slot adjusted">3</span>
-          <span class="slot adjusted">1</span>
-          <span class="slot adjusted">h7</span>
+          <span class="slot" id="I21">21</span>
+          <span class="slot" id="I19">19</span>
+          <span class="slot" id="I17">17</span>
+          <span class="slot" id="I15">15</span>
+          <span class="slot" id="I13">13</span>
+          <span class="slot occupied" id="I11">11</span>
+          <span class="slot occupied" id="I9">9</span>
+          <span class="slot" id="I7">7</span>
+          <span class="slot" id="I5">5</span>
+          <span class="slot" id="I3">3</span>
+          <span class="slot" id="I1">1</span>
+          <span class="slot" id="Ih7">h7</span>
         </div>
       </div>
+
       <div class="horizontal">
-        <span class="slot">64</span>
-        <span class="slot">62</span>
-        <span class="slot">60</span>
-        <span class="slot">58</span>
-        <span class="slot">56</span>
-        <span class="slot">54</span>
-        <span class="slot">52</span>
-        <span class="slot">50</span>
-        <span class="slot">48</span>
-        <span class="slot">46</span>
-        <span class="slot">44</span>
-        <span class="slot">42</span>
-        <span class="slot">40</span>
-        <span class="slot">38</span>
-        <span class="slot">36</span>
-        <span class="slot">34</span>
-        <span class="slot">32</span>
-        <span class="slot">30</span>
-        <span class="slot">28</span>
-        <span class="slot">26</span>
-        <span class="slot">24</span>
-        <span class="slot">22</span>
-        <span class="slot">20</span>
-        <span class="slot">18</span>
-        <span class="slot">16</span>
-        <span class="slot">14</span>
-        <span class="slot">12</span>
-        <span class="slot">10</span>
-        <span class="slot">8</span>
-        <span class="slot">6</span>
-        <span class="slot">4</span>
-        <span class="slot">2</span>
-        <span class="slot">1c</span>
-        <span class="slot">1b</span>
-        <span class="slot">1a</span>
+        <p class="label mb-1" style="bottom: -50px; transform: rotate(90deg);">
+          H
+        </p>
+
+        <span class="slot" id="h64">64</span>
+        <span class="slot" id="h62">62</span>
+        <span class="slot" id="h60">60</span>
+        <span class="slot" id="h58">58</span>
+        <span class="slot" id="h56">56</span>
+        <span class="slot" id="h54">54</span>
+        <span class="slot" id="h52">52</span>
+        <span class="slot occupied" id="h50">50</span>
+        <span class="slot occupied" id="h48">48</span>
+        <span class="slot occupied" id="h46">46</span>
+        <span class="slot occupied" id="h44">44</span>
+        <span class="slot occupied" id="h42">42</span>
+        <span class="slot" id="h40">40</span>
+        <span class="slot" id="h38">38</span>
+        <span class="slot" id="h36">36</span>
+        <span class="slot" id="h34">34</span>
+        <span class="slot" id="h32">32</span>
+        <span class="slot" id="h30">30</span>
+        <span class="slot" id="h28">28</span>
+        <span class="slot" id="h26">26</span>
+        <span class="slot" id="h24">24</span>
+        <span class="slot" id="h22">22</span>
+        <span class="slot" id="h20">20</span>
+        <span class="slot occupied" id="h18">18</span>
+        <span class="slot" id="h16">16</span>
+        <span class="slot" id="h14">14</span>
+        <span class="slot" id="h12">12</span>
+        <span class="slot" id="h10">10</span>
+        <span class="slot py-0" id="8">8</span>
+        <span class="slot py-0" id="6">6</span>
+        <span class="slot py-0" id="4">4</span>
+        <span class="slot py-0" id="2">2</span>
+        <span class="slot py-0" id="1c">1c</span>
+        <span class="slot py-0" id="1b">1b</span>
+        <span class="slot py-0" id="1a">1a</span>
+      </div>
+
+      <div class="horizontal-2">
+        <span class="slot" id="88">88</span>
+        <span class="slot" id="86">86</span>
+        <span class="slot" id="84">84</span>
+        <span class="slot" id="82">82</span>
+        <span class="slot" id="80">80</span>
+        <span class="slot" id="78">78</span>
+        <span class="slot" id="76">76</span>
+        <span class="slot occupied" id="74">74</span>
+        <span class="slot occupied" id="72">72</span>
+        <span class="slot" id="70">70</span>
+        <span class="slot" id="68">68</span>
+        <span class="slot" id="66">66</span>
+      </div>
+
+      <div class="last-2">
+        <span class="slot" id="num1">number</span>
+        <span class="slot occupied" id="num2">number</span>
       </div>
     </div>
 
     <div class="bottom">
-      <p class="text-center">ss</p>
+      <div class="column-A">
+        <p class="label mb-4">
+          A
+        </p>
+        <div class="cover"></div>
+        <div class="top-hat"></div>
+        <div class="right">
+          <span class="slot moved-6 position-absolute" id="A67">67</span>
+          <span class="slot occupied moved-5 position-absolute" id="A65">65</span>
+          <span class="slot moved-4 position-absolute" id="A63">63</span>
+          <span class="slot moved-3 position-absolute" id="A61">61</span>
+          <span class="slot moved-2 position-absolute" id="A59">59</span>
+          <span class="slot moved-1 position-absolute" id="A57">57</span>
+
+          <span class="slot" id="A55">55</span>
+          <span class="slot" id="A53">53</span>
+          <span class="slot" id="A51">51</span>
+          <span class="slot occupied" id="A49">49</span>
+          <span class="slot occupied" id="A47">47</span>
+          <span class="slot occupied" id="A45">45</span>
+          <span class="slot" id="A43">43</span>
+          <span class="slot" id="A41">41</span>
+          <span class="slot" id="A39">39</span>
+          <span class="slot" id="A37">37</span>
+          <span class="slot" id="A35">35</span>
+          <span class="slot" id="A33">33</span>
+          <span class="slot" id="A31">31</span>
+          <span class="slot" id="A29">29</span>
+          <span class="slot" id="A27">27</span>
+          <span class="slot" id="A25">25</span>
+          <span class="slot" id="A23">23</span>
+          <span class="slot" id="A21">21</span>
+          <span class="slot" id="A19">19</span>
+          <span class="slot" id="A17">17</span>
+          <span class="slot" id="A15">15</span>
+          <span class="slot" id="A13">13</span>
+          <span class="slot" id="A11">11</span>
+          <span class="slot" id="A9">9</span>
+          <span class="slot" id="A7">7</span>
+        </div>
+      </div>
+
+      <div class="column-B">
+        <div class="left">
+          <p class="label mb-2 ms-5">
+            B
+          </p>
+          <span class="slot" id="B42">42</span>
+          <span class="slot" id="B40">40</span>
+          <span class="slot" id="B38">38</span>
+          <span class="slot" id="B36">36</span>
+          <span class="slot occupied" id="B34">34</span>
+          <span class="slot occupied" id="B32">32</span>
+          <span class="slot occupied" id="B30">30</span>
+          <span class="slot" id="B28">28</span>
+          <span class="slot" id="B26">26</span>
+          <span class="slot" id="B24">24</span>
+          <span class="slot" id="B22">22</span>
+          <span class="slot" id="B20">20</span>
+          <span class="slot" id="B18">18</span>
+          <span class="slot" id="B16">16</span>
+          <span class="slot" id="B14">14</span>
+          <span class="slot" id="B12">12</span>
+          <span class="slot" id="B10">10</span>
+          <span class="slot" id="B8">8</span>
+          <span class="slot" id="B6">6</span>
+          <span class="slot occupied" id="B4">4</span>
+          <span class="slot" id="B2">2</span>
+        </div>
+        <div class="right">
+          <span class="slot" id="B33">33</span>
+          <span class="slot" id="B31">31</span>
+          <span class="slot" id="B29">29</span>
+          <span class="slot" id="B27">27</span>
+          <span class="slot occupied" id="B25">25</span>
+          <span class="slot occupied" id="B23">23</span>
+          <span class="slot occupied" id="B21">21</span>
+          <span class="slot" id="B19">19</span>
+          <span class="slot" id="B17">17</span>
+          <span class="slot" id="B15">15</span>
+          <span class="slot" id="B13">13</span>
+          <span class="slot" id="B11">11</span>
+          <span class="slot" id="B9">9</span>
+          <span class="slot" id="B7">7</span>
+          <span class="slot occupied" id="B5">5</span>
+          <span class="slot" id="B3">3</span>
+        </div>
+      </div>
+
+      <div class="column-C">
+        <div class="left">
+          <p class="label mb-2 ms-5">
+            C
+          </p>
+          <span class="slot" id="C64">64</span>
+          <span class="slot" id="C62">62</span>
+          <span class="slot" id="C60">60</span>
+          <span class="slot" id="C58">58</span>
+          <span class="slot" id="C56">56</span>
+          <span class="slot" id="C54">54</span>
+          <span class="slot" id="C52">52</span>
+          <span class="slot occupied" id="C50">50</span>
+          <span class="slot occupied" id="C48">48</span>
+          <span class="slot occupied" id="C46">46</span>
+          <span class="slot" id="C44">44</span>
+          <span class="slot" id="C42">42</span>
+          <span class="slot" id="C40">40</span>
+          <span class="slot" id="C38">38</span>
+          <span class="slot occupied" id="C36">36</span>
+          <span class="slot occupied" id="C34">34</span>
+          <span class="slot" id="C32">32</span>
+          <span class="slot" id="C30">30</span>
+          <span class="slot" id="C28">28</span>
+          <span class="slot" id="C26">26</span>
+          <span class="slot" id="C24">24</span>
+          <span class="slot" id="C22">22</span>
+          <span class="slot" id="C20">20</span>
+          <span class="slot" id="C18">18</span>
+          <span class="slot" id="C16">16</span>
+          <span class="slot" id="C14">14</span>
+          <span class="slot" id="C12">12</span>
+          <span class="slot" id="C10">10</span>
+          <span class="slot" id="C8">8</span>
+          <span class="slot" id="C6">6</span>
+          <span class="slot" id="C4">4</span>
+          <span class="slot" id="C2">2</span>
+        </div>
+
+        <div class="right">
+          <span class="slot " id="C59">59</span>
+          <span class="slot py-m-2" id="C57">57</span>
+          <span class="slot py-m-2" id="C55">55</span>
+          <span class="slot py-m-2" id="C53">53</span>
+          <span class="slot py-m-2" id="C51">51</span>
+          <span class="slot " id="C49">49</span>
+          <span class="slot py-m-2" id="C47">47</span>
+          <span class="slot py-m-2" id="C45">45</span>
+          <span class="slot py-m-2" id="C43">43</span>
+          <span class="slot " id="C41">41</span>
+          <span class="slot " id="C39">39</span>
+          <span class="slot py-m-2" id="C37">37</span>
+          <span class="slot " id="C35">35</span>
+          <span class="slot " id="C33">33</span>
+          <span class="slot py-m-2" id="C31">31</span>
+          <span class="slot occupied" id="C29">29</span>
+          <span class="slot " id="C27">27</span>
+          <span class="slot py-m-2" id="C25">25</span>
+          <span class="slot " id="C23">23</span>
+          <span class="slot " id="C21">21</span>
+          <span class="slot " id="C19">19</span>
+          <span class="slot py-m-2" id="C17">17</span>
+          <span class="slot py-m-2" id="C15">15</span>
+          <span class="slot occupied" id="C13">13</span>
+          <span class="slot occupied" id="C11">11</span>
+          <span class="slot py-m-2" id="9">9</span>
+          <span class="slot py-m-2" id="7">7</span>
+          <span class="slot py-m-2" id="5">5</span>
+          <span class="slot py-m-2" id="3">3</span>
+        </div>
+      </div>
+
+      <div class="column-D">
+        <div class="left">
+          <p class="label mb-2 ms-5">
+            D
+          </p>
+
+          <span class="slot" id="D72">72</span>
+          <span class="slot" id="D70">70</span>
+          <span class="slot" id="D68">68</span>
+          <span class="slot" id="D66">66</span>
+          <span class="slot" id="D64">64</span>
+          <span class="slot" id="D62">62</span>
+          <span class="slot" id="D60">60</span>
+          <span class="slot" id="D58">58</span>
+          <span class="slot" id="D56">56</span>
+          <span class="slot" id="D54">54</span>
+          <span class="slot" id="D52">52</span>
+          <span class="slot" id="D50">50</span>
+          <span class="slot" id="D48">48</span>
+          <span class="slot" id="D46">46</span>
+          <span class="slot" id="D44">44</span>
+          <span class="slot" id="D42">42</span>
+          <span class="slot" id="D40">40</span>
+          <span class="slot occupied" id="D38">38</span>
+          <span class="slot occupied" id="D36">36</span>
+          <span class="slot occupied" id="D34">34</span>
+          <span class="slot occupied" id="D32">32</span>
+          <span class="slot" id="D30">30</span>
+          <span class="slot" id="D28">28</span>
+          <span class="slot" id="D26">26</span>
+          <span class="slot" id="D24">24</span>
+          <span class="slot" id="D22">22</span>
+          <span class="slot" id="D20">20</span>
+          <span class="slot" id="D18">18</span>
+          <span class="slot" id="D16">16</span>
+          <span class="slot" id="D14">14</span>
+          <span class="slot" id="D12">12</span>
+          <span class="slot" id="D10">10</span>
+          <span class="slot" id="D8">8</span>
+          <span class="slot" id="D6">6</span>
+          <span class="slot" id="D4">4</span>
+          <span class="slot occupied" id="D2">2</span>
+        </div>
+        <div class="right">
+          <span class="slot py-m-2" id="D63">63</span>
+          <span class="slot py-m-2" id="D61">61</span>
+          <span class="slot py-m-2" id="D59">59</span>
+          <span class="slot" id="D57">57</span>
+          <span class="slot" id="D55">55</span>
+          <span class="slot occupied py-m-2" id="D53">53</span>
+          <span class="slot py-m-2" id="D51">51</span>
+          <span class="slot py-m-2" id="D49">49</span>
+          <span class="slot py-m-2" id="D47">47</span>
+          <span class="slot py-m-2" id="D45">45</span>
+          <span class="slot" id="D43">43</span>
+          <span class="slot py-m-2" id="D41">41</span>
+          <span class="slot py-m-2" id="D39">39</span>
+          <span class="slot occupied py-m-2" id="D37">37</span>
+          <span class="slot py-m-2" id="D35">35</span>
+          <span class="slot py-m-2" id="D33">33</span>
+          <span class="slot" id="D31">31</span>
+          <span class="slot" id="D29">29</span>
+          <span class="slot" id="D27">27</span>
+          <span class="slot occupied py-m-2" id="D25">25</span>
+          <span class="slot py-m-2" id="D23">23</span>
+          <span class="slot py-m-2" id="D21">21</span>
+          <span class="slot py-m-2" id="D19">19</span>
+          <span class="slot py-m-2" id="D17">17</span>
+          <span class="slot" id="D15">15</span>
+          <span class="slot" id="D13">13</span>
+          <span class="slot" id="D11">11</span>
+          <span class="slot py-m-2" id="D9">9</span>
+          <span class="slot py-m-2" id="D7">7</span>
+          <span class="slot" id="D5">5</span>
+          <span class="slot occupied" id="D3">3</span>
+          <span class="slot" id="D1">1</span>
+        </div>
+      </div>
+
+      <div class="column-E">
+        <div class="left">
+          <p class="label mb-2 ms-5">
+            E
+          </p>
+
+          <span class="slot" id="E70">70</span>
+          <span class="slot" id="E68">68</span>
+          <span class="slot occupied" id="E66">66</span>
+          <span class="slot occupied" id="E64">64</span>
+          <span class="slot occupied" id="E62">62</span>
+          <span class="slot occupied" id="E60">60</span>
+          <span class="slot" id="E58">58</span>
+          <span class="slot" id="E56">56</span>
+          <span class="slot" id="E54">54</span>
+          <span class="slot" id="E52">52</span>
+          <span class="slot" id="E50">50</span>
+          <span class="slot" id="E48">48</span>
+          <span class="slot" id="E46">46</span>
+          <span class="slot" id="E44">44</span>
+          <span class="slot" id="E42">42</span>
+          <span class="slot" id="E40">40</span>
+          <span class="slot" id="E38">38</span>
+          <span class="slot" id="E36">36</span>
+          <span class="slot" id="E34">34</span>
+          <span class="slot" id="E32">32</span>
+          <span class="slot" id="E30">30</span>
+          <span class="slot" id="E28">28</span>
+          <span class="slot" id="E26">26</span>
+          <span class="slot" id="E24">24</span>
+          <span class="slot" id="E22">22</span>
+          <span class="slot" id="E20">20</span>
+          <span class="slot" id="E18">18</span>
+          <span class="slot" id="E16">16</span>
+          <span class="slot" id="E14">14</span>
+          <span class="slot" id="E12">12</span>
+          <span class="slot" id="E10">10</span>
+          <span class="slot occupied" id="E8">8</span>
+          <span class="slot" id="E6">6</span>
+          <span class="slot" id="E4">4</span>
+          <span class="slot pb-3" id="E2">2</span>
+        </div>
+        <div class="right">
+          <span class="slot py-m-2" id="E63">63</span>
+          <span class="slot py-m-2" id="E61">61</span>
+          <span class="slot" id="E59">59</span>
+          <span class="slot" id="E57">57</span>
+          <span class="slot" id="E55">55</span>
+          <span class="slot py-m-2" id="E53">53</span>
+          <span class="slot py-m-2" id="E51">51</span>
+          <span class="slot py-m-2" id="E49">49</span>
+          <span class="slot py-m-2" id="E47">47</span>
+          <span class="slot py-m-2" id="E45">45</span>
+          <span class="slot py-m-2" id="E43">43</span>
+          <span class="slot py-m-2" id="E41">41</span>
+          <span class="slot occupied" id="E39">39</span>
+          <span class="slot occupied" id="E37">37</span>
+          <span class="slot py-m-2" id="E35">35</span>
+          <span class="slot" id="E33">33</span>
+          <span class="slot" id="E31">31</span>
+          <span class="slot py-m-2" id="E29">29</span>
+          <span class="slot py-m-2" id="E27">27</span>
+          <span class="slot py-m-2" id="E25">25</span>
+          <span class="slot" id="E23">23</span>
+          <span class="slot" id="E21">21</span>
+          <span class="slot" id="E19">19</span>
+          <span class="slot" id="E17">17</span>
+          <span class="slot py-m-2" id="E15">15</span>
+          <span class="slot py-m-2" id="E13">13</span>
+          <span class="slot" id="E11">11</span>
+          <span class="slot" id="E9">9</span>
+          <span class="slot" id="E7">7</span>
+          <span class="slot py-m-2" id="E5">5</span>
+          <span class="slot" id="E3">3</span>
+          <span class="slot" id="E1">1</span>
+        </div>
+      </div>
+
+      <div class="column-F">
+        <div class="left">
+          <p class="label mb-2 ms-5">
+            F
+          </p>
+
+          <span class="slot" id="F56">56</span>
+          <span class="slot" id="F54">54</span>
+          <span class="slot" id="F52">52</span>
+          <span class="slot" id="F50">50</span>
+          <span class="slot" id="F48">48</span>
+          <span class="slot" id="F46">46</span>
+          <span class="slot" id="F44">44</span>
+          <span class="slot" id="F42">42</span>
+          <span class="slot" id="F40">40</span>
+          <span class="slot" id="F38">38</span>
+          <span class="slot" id="F36">36</span>
+          <span class="slot occupied" id="F34">34</span>
+          <span class="slot occupied" id="F32">32</span>
+          <span class="slot" id="F30">30</span>
+          <span class="slot" id="F28">28</span>
+          <span class="slot" id="F26">26</span>
+          <span class="slot" id="F24">24</span>
+          <span class="slot" id="F22">22</span>
+          <span class="slot" id="F20">20</span>
+          <span class="slot" id="F18">18</span>
+          <span class="slot" id="F16">16</span>
+          <span class="slot" id="F14">14</span>
+          <span class="slot" id="F12">12</span>
+          <span class="slot" id="F10">10</span>
+          <span class="slot" id="F8">8</span>
+          <span class="slot" id="F6">6</span>
+          <span class="slot" id="F4">4</span>
+        </div>
+        <div class="right">
+          <span class="slot py-m-2" id="F51">51</span>
+          <span class="slot py-m-2" id="F49">49</span>
+          <span class="slot py-m-2" id="F47">47</span>
+          <span class="slot py-m-2" id="F45">45</span>
+          <span class="slot py-m-2" id="F43">43</span>
+          <span class="slot py-m-2" id="F41">41</span>
+          <span class="slot py-m-2" id="F39">39</span>
+          <span class="slot py-m-2" id="F37">37</span>
+          <span class="slot occupied" id="F35">35</span>
+          <span class="slot occupied" id="F33">33</span>
+          <span class="slot py-m-2" id="F31">31</span>
+          <span class="slot" id="F29">29</span>
+          <span class="slot py-m-2" id="F27">27</span>
+          <span class="slot py-m-2" id="F25">25</span>
+          <span class="slot py-m-2" id="F23">23</span>
+          <span class="slot py-m-2" id="F21">21</span>
+          <span class="slot py-m-2" id="F19">19</span>
+          <span class="slot" id="F17">17</span>
+          <span class="slot" id="F15">15</span>
+          <span class="slot" id="F13">13</span>
+          <span class="slot" id="F11">11</span>
+          <span class="slot py-m-2" id="F9">9</span>
+          <span class="slot" id="F7">7</span>
+          <span class="slot" id="F5">5</span>
+          <span class="slot" id="F3">3</span>
+          <span class="slot" id="F1">1</span>
+        </div>
+      </div>
+
+      <div class="column-G">
+        <div class="left">
+          <span class="slot py-mm" id="G72">72</span>
+          <span class="slot py-mm" id="G70">70</span>
+          <span class="slot py-mm" id="G68">68</span>
+          <span class="slot py-mm" id="G66">66</span>
+          <span class="slot py-mm" id="G64">64</span>
+          <span class="slot py-mm" id="G62">62</span>
+          <span class="slot occupied py-mm" id="G60">60</span>
+          <span class="slot occupied py-mm" id="G58">58</span>
+          <span class="slot occupied py-mm" id="G56">56</span>
+          <span class="slot occupied py-mm" id="G54">54</span>
+          <span class="slot occupied py-mm" id="G52">52</span>
+          <span class="slot py-mm" id="G50">50</span>
+          <span class="slot py-mm" id="G48">48</span>
+          <span class="slot py-mm" id="G46">46</span>
+          <span class="slot py-mm" id="G44">44</span>
+          <span class="slot py-mm" id="G42">42</span>
+          <span class="slot py-mm" id="G40">40</span>
+          <span class="slot py-mm" id="G38">38</span>
+          <span class="slot py-mm" id="G36">36</span>
+          <span class="slot py-mm" id="G34">34</span>
+          <span class="slot py-mm" id="G32">32</span>
+          <span class="slot py-mm" id="G30">30</span>
+          <span class="slot py-mm" id="G28">28</span>
+          <span class="slot py-mm" id="G26">26</span>
+          <span class="slot py-mm" id="G24">24</span>
+          <span class="slot py-mm" id="G22">22</span>
+          <span class="slot py-mm" id="G20">20</span>
+          <span class="slot py-mm" id="G18">18</span>
+          <span class="slot py-mm" id="G16">16</span>
+          <span class="slot py-mm" id="G14">14</span>
+          <span class="slot py-mm" id="G12">12</span>
+          <span class="slot py-mm" id="G10">10</span>
+          <span class="slot py-mm" id="G8">8</span>
+          <span class="slot py-mm" id="G6">6</span>
+          <span class="slot py-mm" id="G4">4</span>
+          <span class="slot" id="G2">2</span>
+        </div>
+        <div class="right">
+          <p class="label mb-2 me-4">
+            G
+          </p>
+
+          <span class="slot occupied" id="G117">117</span>
+          <span class="slot occupied" id="G115">115</span>
+          <span class="slot" id="G113">113</span>
+          <span class="slot" id="G111">111</span>
+          <span class="slot" id="G109">109</span>
+          <span class="slot" id="G107">107</span>
+          <span class="slot" id="G105">105</span>
+          <span class="slot" id="G103">103</span>
+          <span class="slot occupied" id="G101">101</span>
+          <span class="slot" id="G99">99</span>
+          <span class="slot" id="G97">97</span>
+          <span class="slot" id="G95">95</span>
+          <span class="slot" id="G93">93</span>
+          <span class="slot" id="G91">91</span>
+          <span class="slot" id="G89">89</span>
+          <span class="slot" id="G87">87</span>
+          <span class="slot" id="G85">85</span>
+          <span class="slot" id="G83">83</span>
+          <span class="slot" id="G81">81</span>
+          <span class="slot" id="G79">79</span>
+          <span class="slot" id="G77">77</span>
+          <span class="slot" id="G75">75</span>
+          <span class="slot" id="G73">73</span>
+          <span class="slot" id="G71">71</span>
+          <span class="slot" id="G69">69</span>
+          <span class="slot" id="G67">67</span>
+          <span class="slot" id="G65">65</span>
+          <span class="slot" id="G63">63</span>
+          <span class="slot" id="G61">61</span>
+          <span class="slot" id="G59">59</span>
+          <span class="slot" id="G57">57</span>
+          <span class="slot" id="G55">55</span>
+          <span class="slot" id="G53">53</span>
+          <span class="slot" id="G51">51</span>
+          <span class="slot" id="G49">49</span>
+          <span class="slot" id="G47">47</span>
+          <span class="slot" id="G45">45</span>
+          <span class="slot" id="G43">43</span>
+          <span class="slot" id="G41">41</span>
+          <span class="slot" id="G39">39</span>
+          <span class="slot" id="G37">37</span>
+          <span class="slot" id="G35">35</span>
+          <span class="slot" id="G33">33</span>
+          <span class="slot" id="G31">31</span>
+          <span class="slot" id="G29">29</span>
+          <span class="slot" id="G27">27</span>
+          <span class="slot" id="G25">25</span>
+          <span class="slot" id="G23">23</span>
+          <span class="slot" id="G21">21</span>
+          <span class="slot occupied" id="G19">19</span>
+          <span class="slot occupied" id="G17">17</span>
+          <span class="slot occupied" id="G15">15</span>
+          <span class="slot occupied" id="G13">13</span>
+          <span class="slot" id="G11">11</span>
+          <span class="slot" id="G9">9</span>
+          <span class="slot" id="G7">7</span>
+        </div>
+      </div>
     </div>
   </div>
   <!-- main ended -->
